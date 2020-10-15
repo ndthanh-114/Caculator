@@ -196,7 +196,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     catch (Exception e){
                         e.printStackTrace();;
                     }
-                    editNumber.setText(ketqua);
+                    editNumber.setText(String.valueOf(ketqua);
                 }
                 else if(current==0){
                     editNumber.setText(screen);
